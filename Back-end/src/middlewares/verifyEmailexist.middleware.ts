@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response } from "express";
-import { User } from "../entities";
 import { usersRepository } from "../repositories";
 import { AppError } from "../error/App.error";
 
@@ -8,11 +7,20 @@ export const verifyEmail = async (
   res: Response,
   next: NextFunction
 ): Promise<void> => {
-  const email: string = req.body.email;
+  const { email } = req.body;
+
+  // Se não tiver email no body, pula a verificação
   if (!email) return next();
 
-  const foundEntity: User | null = await usersRepository.findOneBy({ email });
-  if (foundEntity) throw new AppError("Email already exists", 409);
+  // Verifica se email já existe
+  const userExists = await usersRepository.findOne({
+    where: { email },
+    withDeleted: true, // Inclui usuários deletados se usar soft delete
+  });
 
-  return next();
+  if (userExists) {
+    throw new AppError("Email already exists", 409);
+  }
+
+  next();
 };
