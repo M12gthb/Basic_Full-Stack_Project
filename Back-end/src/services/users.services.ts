@@ -19,6 +19,12 @@ const userReadService = async (): Promise<UserRead> => {
   return userReadSchema.parse(await usersRepository.find());
 };
 
+const userReadbyIdService = async (id: string): Promise<UserReturn> => {
+  const user = await usersRepository.findOne({ where: { id: id } });
+
+  return userReturnSchema.parse(user);
+};
+
 const updateUserService = async (
   user: User,
   data: UserUpdate
@@ -37,4 +43,5 @@ export {
   userReadService,
   userDeleteService,
   updateUserService,
+  userReadbyIdService,
 };

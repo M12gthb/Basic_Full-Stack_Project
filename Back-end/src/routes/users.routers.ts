@@ -9,23 +9,38 @@ import {
   deleteUser,
   readUser,
   updateUser,
+  readUserId,
 } from "../controllers/users.controllers";
+import { verifyPermissions } from "../middlewares/verifyPermissions.middleware";
 
-const usersRouters: Router = Router();
+const usersRouter: Router = Router();
 
-usersRouters.post("", validateBody(createUserSchema), verifyEmail, createUser);
+// Rota POST /users
+usersRouter.post("", validateBody(createUserSchema), verifyEmail, createUser);
 
-usersRouters.get("", readUser);
+// Rota GET /users
+usersRouter.get("", readUser);
 
-usersRouters.patch(
+usersRouter.get("/:id", verifyUserId, readUserId);
+
+// Rota PATCH /users/:id
+usersRouter.patch(
   "/:id",
   verifyToken,
+  verifyPermissions,
   verifyUserId,
   validateBody(patchUserSchema),
   verifyEmail,
   updateUser
 );
 
-usersRouters.delete("/:id", verifyToken, verifyUserId, deleteUser);
+// Rota DELETE /users/:id
+usersRouter.delete(
+  "/:id",
+  verifyToken,
+  verifyPermissions,
+  verifyUserId,
+  deleteUser
+);
 
-export { usersRouters };
+export { usersRouter };
