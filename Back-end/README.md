@@ -115,9 +115,9 @@ Content-type: application/json
 | -------------- | ------------------- |
 | 409 Conflict   | User already exists |
 
-| Código do Erro  | Descrição              |
-| --------------- | ---------------------- |
-| 400 Bad Request | "error": "Bad Request" |
+| Código do Erro  | Descrição          |
+| --------------- | ------------------ |
+| 400 Bad Request | Expected, received |
 
 | Código do Erro | Descrição            |
 | -------------- | -------------------- |
@@ -232,7 +232,6 @@ Content-type: application/json
 
 ```
 PATCH /users/bbf64df3-3c77-42bb-9490-60342a27afbd
-
 ```
 
 ### Exemplo de Response:
@@ -282,7 +281,6 @@ PATCH /users/bbf64df3-3c77-42bb-9490-60342a27afbd
 
 ```
 DELETE /users/bbf64df3-3c77-42bb-9490-60342a27afbd
-
 ```
 
 ### Exemplo de Response:
