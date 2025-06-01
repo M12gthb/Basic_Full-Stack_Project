@@ -21,11 +21,14 @@ const settings = (): DataSourceOptions => {
   if (!dbUrl) throw new Error("Missing env var: 'DATABASE_URL'");
 
   return {
-    type: "postgres",
+    type: "mysql",
     url: dbUrl,
     logging: true,
     entities: [entitiesPath],
     migrations: [migrationPath],
+    // Additional MySQL-specific options if needed
+    charset: "utf8mb4", // Recommended charset for MySQL to support full Unicode including emojis
+    timezone: "Z", // Use UTC timezone
   };
 };
 

@@ -26,24 +26,35 @@ class User {
   @Column({ type: "varchar", length: 120 })
   password: string;
 
-  @Column({ type: "varchar" })
+  @Column({ type: "varchar", length: 255 }) // Adicionei length para melhor prática
   image: string;
 
-  @CreateDateColumn({ type: "date" })
-  createdAt: string;
+  @CreateDateColumn({
+    type: "timestamp",
+    precision: 6,
+    default: () => "CURRENT_TIMESTAMP(6)",
+  })
+  createdAt: Date;
 
-  @UpdateDateColumn({ type: "date" })
-  updatedAt: string;
+  @UpdateDateColumn({
+    type: "timestamp",
+    precision: 6,
+    default: () => "CURRENT_TIMESTAMP(6)",
+    onUpdate: "CURRENT_TIMESTAMP(6)",
+  })
+  updatedAt: Date;
 
-  @DeleteDateColumn({ nullable: true, type: "date" })
-  deletedAt: string | null;
+  @DeleteDateColumn({
+    type: "timestamp",
+    precision: 6,
+    nullable: true,
+  })
+  deletedAt: Date | null;
 
   @BeforeInsert()
   @BeforeUpdate()
   hashPassword() {
-    const isEncrypted: number = getRounds(this.password);
-
-    if (!isEncrypted) {
+    if (this.password && !getRounds(this.password)) {
       this.password = hashSync(this.password, 10);
     }
   }
