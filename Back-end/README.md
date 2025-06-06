@@ -87,7 +87,7 @@ Content-type: application/json
 {
   "name": "teste",
   "email": "teste@mail.com",
-  "passwor": "testpassword",
+  "password": "testpassword",
   "image": "https://www.techsmith.com/blog/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png",
 }
 ````
@@ -166,7 +166,8 @@ Content-type: application/json
   "email": "teste@mail.com",
   "image": "https://www.techsmith.com/blog/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png",
   "created_at timestamp": "05/05/2025",
-  "updated_at timestamp": "05/05/2025"
+  "updated_at timestamp": "05/05/2025",
+  "deletedAt": null
 }
 ]
 ```
@@ -210,7 +211,8 @@ Content-type: application/json
   "email": "teste@mail.com",
   "image": "https://www.techsmith.com/blog/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png",
   "created_at timestamp": "05/05/2025",
-  "updated_at timestamp": "05/05/2025"
+  "updated_at timestamp": "05/05/2025",
+  "deletedAt": null
 }
 ```
 
@@ -247,7 +249,8 @@ PATCH /users/bbf64df3-3c77-42bb-9490-60342a27afbd
   "email": "teste@mail.com",
   "image": "https://www.techsmith.com/blog/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png",
   "created_at timestamp": "05/05/2025",
-  "updated_at timestamp": "05/05/2025"
+  "updated_at timestamp": "05/05/2025",
+  "deletedAt": null
 }
 ```
 
