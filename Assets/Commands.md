@@ -30,4 +30,8 @@
 
 - Fazendo push de atualizações: git pull
 
-#### Figma link: https://www.figma.com/design/fWqeNOmlzXXXlNn8ca44Cr/Formul%C3%A1rio-de-Cadastro--Community-?node-id=0-1&p=f&t=8JRQVty0kReUPjgz-0
+#### Tipos de commits: https://github.com/iuricode/padroes-de-commits
+
+#### Documentação W3School: https://www.w3schools.com/
+
+#### Documentação MDN: https://developer.mozilla.org/pt-BR/
