@@ -85,7 +85,6 @@ Content-type: application/json
 
 ```json
 {
-  "id": "bbf64df3-3c77-42bb-9490-60342a27afbd",
   "name": "teste",
   "email": "teste@mail.com",
   "image": "https://www.techsmith.com/blog/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png",
