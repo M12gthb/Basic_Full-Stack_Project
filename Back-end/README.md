@@ -87,6 +87,7 @@ Content-type: application/json
 {
   "name": "teste",
   "email": "teste@mail.com",
+  "passwor": "testpassword",
   "image": "https://www.techsmith.com/blog/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png",
 }
 ````
