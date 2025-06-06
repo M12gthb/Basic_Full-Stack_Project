@@ -26,9 +26,8 @@ const settings = (): DataSourceOptions => {
     logging: true,
     entities: [entitiesPath],
     migrations: [migrationPath],
-    // Additional MySQL-specific options if needed
-    charset: "utf8mb4", // Recommended charset for MySQL to support full Unicode including emojis
-    timezone: "Z", // Use UTC timezone
+    charset: "utf8mb4",
+    timezone: "Z",
   };
 };
 
