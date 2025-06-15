@@ -26,7 +26,7 @@ class User {
   @Column({ type: "varchar", length: 120 })
   password: string;
 
-  @Column({ type: "varchar", length: 255 }) // Adicionei length para melhor prática
+  @Column({ type: "text" }) // Adicionei length para melhor prática
   image: string;
 
   @CreateDateColumn({
