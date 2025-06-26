@@ -1,3 +1,5 @@
+import { verifyToken } from "../../services/service.js"
+
 // Função cadastro
 
 function register(){
@@ -5,3 +7,4 @@ function register(){
 }
 
 // Chamada das funções
+await verifyToken("register")

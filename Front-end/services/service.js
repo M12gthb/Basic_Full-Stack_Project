@@ -1,4 +1,4 @@
-const URL = "https://fake-api-steel.vercel.app"
+const URL = "http://localhost:3000"
 
 // Buscando usuários
 
@@ -88,3 +88,56 @@ export async function deleteUser(id, token) {
         
         return response.json()
 }
+
+// Verificando Token
+
+export async function verifyToken(page){
+    let token = localStorage.getItem("TOKEN")
+    let id = localStorage.getItem("ID")
+    const user = await getUserById(id)
+
+    switch(page){
+        case "home":
+            if (!token){
+                window.location.assign("/")
+            }
+            else if(token == ""){
+                window.location.assign("/")
+            }
+            else if (!user){
+                window.location.assign("/")
+            }
+        break
+        case "register":
+            if (token){
+               window.location.assign("../Home/home.html")
+            }
+            else if(token == ""){
+                localStorage.removeItem("TOKEN")
+                localStorage.removeItem("ID")
+            }
+            else if (user){
+                window.location.assign("../Home/home.html")
+            }
+        break
+    }
+}
+
+// Função de login
+
+export async function login(obj){
+    const response = await fetch(`${URL}/login`, {
+            method: 'POST',
+            body: JSON.stringify(obj),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+
+        if(!response.ok){
+            return response.error
+        }
+        
+        return response.json()
+}
+
