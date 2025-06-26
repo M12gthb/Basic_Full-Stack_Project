@@ -1,18 +1,23 @@
+import { getUserById } from "../../services/service"
+
+
+// Verifica se o usuário está logado e redireciona
 let token = localStorage.getItem("TOKEN")
 let id = localStorage.getItem("ID")
 
-// Verifica se o usuário está logado e redireciona
-
-function verifyToken(){
-    switch (token){
-        case (!token):
-            window.location("/")
-        break
-        case (token == ""): 
-            window.location("/")
-        break
-    }       
+if(!token){
+    window.location.assign("/")
+}
+else if(token == ""){
+    window.location.assign("/")
 }
 
+// Captura as informações do usuário
 
-verifyToken()
+try {
+    getUserById(id)
+} catch (error) {
+    console.log(error)
+    window.location.assign("/")
+}
+
