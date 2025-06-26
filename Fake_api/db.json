@@ -209,6 +209,16 @@
       "createdAt": "2025-06-16T11:57:35.308Z",
       "updatedAt": "2025-06-16T11:58:38.357Z",
       "deletedAt": "2025-06-16T11:59:39.975Z"
+    },
+    {
+      "id": "ef16ed6c-5018-4659-bdb3-4ac1a4722ec1",
+      "name": "John doe",
+      "email": "johndoe@email.com",
+      "password": "12345678",
+      "image": "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+      "createdAt": "2025-06-26T15:30:06.807Z",
+      "updatedAt": "2025-06-26T15:30:06.807Z",
+      "deletedAt": null
     }
   ]
 }
