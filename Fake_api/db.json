@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": "46f12aec-2bb0-4c76-b3ce-c0429e9e5826",
+      "name": "Matheus Barros",
+      "email": "mat43214@gmail.com",
+      "password": "12345678",
+      "image": "https://c8.alamy.com/comp/2B9EEJ7/conceptual-image-of-a-neural-network-in-the-human-brain-2B9EEJ7.jpg",
+      "createdAt": "2025-06-06T14:52:53.104Z",
+      "updatedAt": "2025-06-06T14:52:53.104Z",
+      "deletedAt": null
+    },
+    {
+      "id": "58d3a1b2-9f7c-4e2d-ae45-78b1f9c3d1f4",
+      "name": "Ana Silva",
+      "email": "ana.silva@example.com",
+      "password": "Ana@1234",
+      "image": "https://example.com/images/ana.jpg",
+      "createdAt": "2025-05-15T09:30:22.456Z",
+      "updatedAt": "2025-06-01T11:20:33.789Z",
+      "deletedAt": null
+    },
+    {
+      "id": "b3c7e5d2-1a4f-4c9b-8e6d-0f2a3b1c4d5e",
+      "name": "Carlos Oliveira",
+      "email": "carlos.oliveira@business.com",
+      "password": "Carlos@2025",
+      "image": "https://business.com/profiles/carlos.jpg",
+      "createdAt": "2025-04-22T16:45:10.123Z",
+      "updatedAt": "2025-05-30T14:15:47.321Z",
+      "deletedAt": null
+    },
+    {
+      "id": "e9f8d7c6-5b4a-3e2d-1f0e-9a8b7c6d5e4f",
+      "name": "Maria Santos",
+      "email": "maria.santos@mail.net",
+      "password": "Maria#123",
+      "image": "https://storage.profiles/maria-s.jpg",
+      "createdAt": "2025-03-10T08:12:34.567Z",
+      "updatedAt": "2025-06-05T17:25:19.842Z",
+      "deletedAt": null
+    },
+    {
+      "id": "2a4b6c8d-0e1f-3g5h-7i9j-1k2l3m4n5o6p",
+      "name": "João Pereira",
+      "email": "joao.pereira@company.org",
+      "password": "JoaoP@987",
+      "image": "https://cdn.company.org/users/joao-p.jpg",
+      "createdAt": "2025-02-18T13:22:45.678Z",
+      "updatedAt": "2025-05-28T10:11:12.345Z",
+      "deletedAt": null
+    },
+    {
+      "id": "7d6f5e4c-3b2a-1d9e-8f7c-6b5a4d3e2f1g",
+      "name": "Sofia Costa",
+      "email": "sofia.costa@email.io",
+      "password": "Sofia$2025",
+      "image": "https://images.email.io/sofia-c.png",
+      "createdAt": "2025-01-05T11:33:56.789Z",
+      "updatedAt": "2025-06-10T09:08:07.654Z",
+      "deletedAt": null
+    },
+    {
+      "id": "1h2j3k4l-5m6n-7o8p-9q0r-1s2t3u4v5w6x",
+      "name": "Pedro Alves",
+      "email": "pedro.alves@web.dev",
+      "password": "PedroDev@1",
+      "image": "https://assets.web.dev/users/pedro-a.webp",
+      "createdAt": "2024-12-12T15:44:07.891Z",
+      "updatedAt": "2025-06-08T12:13:14.567Z",
+      "deletedAt": null
+    },
+    {
+      "id": "8y7u6i5o-4p3a2s1d-9f8g7h6j-5k4l3m2n",
+      "name": "Luísa Fernandes",
+      "email": "luisa.fernandes@data.co",
+      "password": "Luisa@Data99",
+      "image": "https://pictures.data.co/luisa-f.jpeg",
+      "createdAt": "2024-11-20T10:55:18.912Z",
+      "updatedAt": "2025-05-25T18:19:20.432Z",
+      "deletedAt": null
+    },
+    {
+      "id": "1q2w3e4r-5t6y7u8i-9o0p1a2s-3d4f5g6h",
+      "name": "Ricardo Martins",
+      "email": "ricardo.martins@cloud.ai",
+      "password": "Ricardo@AI42",
+      "image": "https://profiles.cloud.ai/ricardo-m.jpg",
+      "createdAt": "2024-10-08T14:06:29.023Z",
+      "updatedAt": "2025-06-12T07:08:09.876Z",
+      "deletedAt": null
+    },
+    {
+      "id": "7j8k9l0z-1x2c3v4b-5n6m7q8w-9e1r2t3y",
+      "name": "Beatriz Sousa",
+      "email": "beatriz.sousa@service.com",
+      "password": "Beatriz*2025",
+      "image": "https://img.service.com/beatriz-s.png",
+      "createdAt": "2024-09-16T17:17:30.134Z",
+      "updatedAt": "2025-05-20T16:17:18.765Z",
+      "deletedAt": null
+    },
+    {
+      "id": "4u5i6o7p-8a9s0d1f-2g3h4j5k-6l7z8x9c",
+      "name": "Miguel Lima",
+      "email": "miguel.lima@network.org",
+      "password": "MiguelNet@1",
+      "image": "https://photos.network.org/miguel-l.jpg",
+      "createdAt": "2024-08-24T19:28:41.245Z",
+      "updatedAt": "2025-06-14T13:14:15.678Z",
+      "deletedAt": null
+    },
+    {
+      "id": "1v2b3n4m-5q6w7e8r-9t1y2u3i-4o5p6a7s",
+      "name": "Inês Gomes",
+      "email": "ines.gomes@digital.io",
+      "password": "Ines@Digital1",
+      "image": "https://avatars.digital.io/ines-g.jpeg",
+      "createdAt": "2024-07-02T21:39:52.356Z",
+      "updatedAt": "2025-05-15T14:16:17.543Z",
+      "deletedAt": null
+    },
+    {
+      "id": "8d9f0g1h-2j3k4l5z-6x7c8v9b-1n2m3q4w",
+      "name": "António Rocha",
+      "email": "antonio.rocha@tech.net",
+      "password": "Antonio@Tech7",
+      "image": "https://media.tech.net/antonio-r.webp",
+      "createdAt": "2024-06-10T23:50:03.467Z",
+      "updatedAt": "2025-06-16T10:11:12.321Z",
+      "deletedAt": null
+    },
+    {
+      "id": "5e6r7t8y-9u1i2o3p-4a5s6d7f-8g9h0j1k",
+      "name": "Laura Mendes",
+      "email": "laura.mendes@innov.com",
+      "password": "Laura@Innov8",
+      "image": "https://profile-pics.innov.com/laura-m.jpg",
+      "createdAt": "2024-05-19T02:01:14.578Z",
+      "updatedAt": "2025-05-10T12:13:14.210Z",
+      "deletedAt": null
+    },
+    {
+      "id": "2l3z4x5c-6v7b8n9m-1q2w3e4r-5t6y7u8i",
+      "name": "Francisco Teixeira",
+      "email": "francisco.teixeira@sys.co",
+      "password": "Francisco$Sys1",
+      "image": "https://user-images.sys.co/francisco-t.png",
+      "createdAt": "2024-04-27T04:12:25.689Z",
+      "updatedAt": "2025-06-18T15:16:17.098Z",
+      "deletedAt": null
+    },
+    {
+      "id": "9o0p1a2s-3d4f5g6h-7j8k9l0z-1x2c3v4b",
+      "name": "Diana Carvalho",
+      "email": "diana.carvalho@web.ai",
+      "password": "Diana@Web2025",
+      "image": "https://diana-c.web.ai/profile.jpg",
+      "createdAt": "2024-03-05T06:23:36.790Z",
+      "updatedAt": "2025-05-05T18:19:20.987Z",
+      "deletedAt": null
+    },
+    {
+      "id": "5n6m7q8w-9e1r2t3y-4u5i6o7p-8a9s0d1f",
+      "name": "Bruno Coelho",
+      "email": "bruno.coelho@mobile.dev",
+      "password": "Bruno@Mobile9",
+      "image": "https://bruno-coelho.mobile.dev/avatar.jpeg",
+      "createdAt": "2024-02-11T08:34:47.801Z",
+      "updatedAt": "2025-06-20T11:12:13.876Z",
+      "deletedAt": null
+    },
+    {
+      "id": "2g3h4j5k-6l7z8x9c-1v2b3n4m-5q6w7e8r",
+      "name": "Carolina Nunes",
+      "email": "carolina.nunes@data.org",
+      "password": "Carolina$Data5",
+      "image": "https://cdn.data.org/carolina-n.jpg",
+      "createdAt": "2024-01-20T10:45:58.912Z",
+      "updatedAt": "2025-04-30T14:15:16.765Z",
+      "deletedAt": null
+    },
+    {
+      "id": "9t1y2u3i-4o5p6a7s-8d9f0g1h-2j3k4l5z",
+      "name": "Gonçalo Marques",
+      "email": "goncalo.marques@cloud.io",
+      "password": "Goncalo@Cloud7",
+      "image": "https://goncalo-m.cloud.io/picture.png",
+      "createdAt": "2023-12-29T12:57:09.023Z",
+      "updatedAt": "2025-06-22T16:17:18.654Z",
+      "deletedAt": null
+    },
+    {
+      "id": "6x7c8v9b-1n2m3q4w-5e6r7t8y-9u1i2o3p",
+      "name": "Tânia Ferreira",
+      "email": "tania.ferreira@service.net",
+      "password": "Tania@Service1",
+      "image": "https://tania-f.service.net/avatar.webp",
+      "createdAt": "2023-11-07T15:08:20.134Z",
+      "updatedAt": "2025-04-25T10:11:12.543Z",
+      "deletedAt": null
+    },
+    {
+      "id": "a389d7fe-ffc1-49fe-8ace-6977c787fddf",
+      "name": 22,
+      "email": "mat4321444@gmail.com",
+      "password": "12345678",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fehgomes.com.br%2Fsoftware%2Fvectorizer-ai-a-ferramenta-que-transforma-imagens-em-vetores%2F&psig=AOvVaw0g7wg6Ccm4I5L5ZROnyO9r&ust=1750102947784000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDfjO6X9I0DFQAAAAAdAAAAABAK",
+      "createdAt": "2025-06-16T11:57:35.308Z",
+      "updatedAt": "2025-06-16T11:58:38.357Z",
+      "deletedAt": "2025-06-16T11:59:39.975Z"
+    }
+  ]
+}
