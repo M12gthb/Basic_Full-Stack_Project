@@ -66,7 +66,7 @@ app.post('/login', (req, res) => {
     userId: user.id 
   }, JWT_SECRET, { expiresIn: JWT_EXPIRES_IN });
   
-  res.status(201).json({ token });
+  res.status(201).json({ token, id: user.id });
 });
 
 // CRUD endpoints
