@@ -57,6 +57,7 @@ const loginServices = async ({
 
   return {
     token,
+    id: foundUser.id,
   };
 };
 
