@@ -3,7 +3,7 @@ const URL = "http://localhost:3000"
 // Buscando usuários
 
 export async function getUsers() {
-
+    
         const response = await fetch(`${URL}/users`, {
             method: 'GET',
             headers: {
