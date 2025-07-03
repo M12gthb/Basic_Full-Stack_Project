@@ -3,9 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login page</title>
+    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
+    <div class="conteiner-screen">
+      <div class="login-screen">
+        <section class="title-login">
+          <h1>Login</h1>
+        </section>
+        <form action="">
+          <div class="inputs-login">
+            <label for="email">Seu Email</label>
+            <input type="email" name="email" id="email" placeholder="Coloque seu Email">
+            <label for="password">Coloque sua Senha</label>
+            <input type="password" name="password" id="password" placeholder="Coloque sua Senha">
+          </div>
+
+          <div class="checkbox-login">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <p>Manter-me logado</p>
+          </div>
+
+          <div class="button-login">
+            <button type="submit">Logar</button>
+          </div>
+        </form>
+
+        <div class="register-ancora">
+          <span>Ainda não tem conta? </span>
+          <a href="/Pages/Register/register.html">Cadastre-se</a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
     <script src="script.js" type="module"></script>
   </body>
 </html>

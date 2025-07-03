@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=WDXL+Lubrifont+TC&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* body{
+    background: url(https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+} */
+
+
+:root{
+    --cor_das_letras: white;
+    --cor_de_fundo: black;
+    --blur_page: blur;
+
+}
+
+.conteiner-screen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-screen{
+    border: 1px solid black;
+    width: 500px;
+    height: 60vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    backdrop-filter: blur(5px);
+}
+
+
+.title-login{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.inputs-login{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.inputs-login input{
+    height: 2.5rem;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.inputs-login input:active{
+    border-color:  rgb(0, 0, 0);
+    background-color: rgb(226, 226, 226);
+}
+
+.checkbox-login{
+    display: flex;
+    gap: 5px;
+    margin-left: 5px;
+    font-size: 1.1rem;
+
+}
+
+.button-login button{
+    margin-top: 15px;
+    width: 10rem;
+    height: auto;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.button-login button:active{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
